@@ -166,18 +166,16 @@
 		</dependency>
     </dependencies>
 	<distributionManagement>
-		 <snapshotRepository>
-		    <id>nexusRepo</id>
-		    <url>http://34.208.218.12:8081/repository/sample-snapshots/</url>
-		 </snapshotRepository>
-		
-		<repository>
-		    <id>nexusRepo</id>
-		    <url>http://98.91.225.25:8081/repository/myrepo/</url>
-		</repository>
-  	</distributionManagement>
-	
-	<pluginRepositories>
+  <repository>
+    <id>nexus-releases</id>
+    <url>http://98.91.225.25:8081/repository/myrepo/</url>
+  </repository>
+  <snapshotRepository>
+    <id>nexus-snapshots</id>
+    <url>http://98.91.225.25:8081/repository/myrepo/</url>
+  </snapshotRepository>
+</distributionManagement>
+<pluginRepositories>
 	    <pluginRepository>    
 		<id>maven1</id>
 		<name>Maven.org</name>
