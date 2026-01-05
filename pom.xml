@@ -173,7 +173,7 @@
 		
 		<repository>
 		    <id>nexusRepo</id>
-		    <url>ttp://98.91.225.25:8081/repository/myrepo/</url>
+		    <url>http://98.91.225.25:8081/repository/myrepo/</url>
 		</repository>
   	</distributionManagement>
 	
