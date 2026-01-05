@@ -170,10 +170,6 @@
     <id>nexus-releases</id>
     <url>http://98.91.225.25:8081/repository/myrepo/</url>
   </repository>
-  <snapshotRepository>
-    <id>nexus-snapshots</id>
-    <url>http://98.91.225.25:8081/repository/myrepo/</url>
-  </snapshotRepository>
 </distributionManagement>
 <pluginRepositories>
 	    <pluginRepository>    
