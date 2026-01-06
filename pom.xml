@@ -172,7 +172,7 @@
     <distributionManagement>
         <repository>
             <id>nexus-releases</id>
-            <url>http://98.91.225.25:8081/repository/nexusrepo/</url>
+            <url>http://34.208.218.12:8081/repository/nexusrepo/</url>
         </repository>
         <snapshotRepository>
             <id>nexus-snapshots</id>
